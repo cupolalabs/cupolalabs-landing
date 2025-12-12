@@ -37,7 +37,6 @@ h3,
 h4,
 h5 {
   color: var(--color-primary-text);
-  font-style: italic;
   margin-bottom: calc(-1 * var(--space-sm));
 }
 

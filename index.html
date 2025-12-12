@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cupola Labs</title>
-  <meta name="description" content="infra and tools, made for humans" />
+  <meta name="description" content="Infrastructure and tools, made for humans" />
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="./public/favicon.ico" type="image/x-icon" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&display=swap"
@@ -18,33 +18,22 @@
       <div class="logo-container">
         <img class="logo" draggable="false" src="./public/cupola-logo.svg" />
       </div>
-      <p>infra and tools, made for humans</p>
+      <p>Infra and tools, made for humans.</p>
     </nav>
     <hr />
     <main>
-      <h3>Core Projects</h3>
+      <h3>Our Work</h3>
       <ul>
         <li>
-          <a href="https://ai-sdk.rs" target="_blank">ai-sdk</a> SDK with one interface for multiple AI providers.
-        </li>
-        <li>
-          <a href="https://wrapper.sh" target="_blank">wrapper</a> Terminal LLM client with streaming, file upload, and
-          MCP-style bindings.
+          <a href="https://relic.so" target="_blank">Relic</a> Secret management and sharing platform for teams,
+          enabling secure collaboration and effortless access control.
         </li>
       </ul>
       <hr />
       <h3>Contributions</h3>
       <p>
-        We’re grateful for every contribution that helps Cupola Labs grow and improve. Whether you want to report an
-        issue, suggest a feature, or submit a pull request, your input makes a difference.
-      </p>
-      <p>All our projects live on <a href="https://github.com/orgs/cupolalabs/repositories" target="_blank">GitHub</a>,
-        and
-        that’s the best place to get involved.</p>
-      <p>
-        If you have questions about contributing or want to discuss your ideas before submitting a PR, join our
-        <a href="https://discord.com/invite/Ecb49reHXE" target="_blank">Discord</a>
-        community and head to the <b>#contributions</b> channel.
+        Want to get involved? Check out our projects on <a href="https://github.com/cupolalabs" target="_blank">GitHub</a> 
+        or join the conversation on <a href="https://discord.gg/2vNRzRMY6K" target="_blank">Discord</a>. Report issues, suggest improvements, or just say hi — we love seeing what you bring.
       </p>
       <hr />
       <h3>Elsewhere</h3>
@@ -53,16 +42,7 @@
           <a href="https://x.com/cupolalabs" target="_blank">𝕏</a>
         </li>
         <li>
-          <a href="https://github.com/cupolalabs" target="_blank">GitHub</a>
-        </li>
-        <li>
-          <a href="https://discord.com/invite/Ecb49reHXE" target="_blank">Discord</a>
-        </li>
-        <li>
           <a href="https://linkedin.com/company/cupolalabs" target="_blank">LinkedIn</a>
-        </li>
-        <li>
-          contact@cupolalabs.org
         </li>
       </ul>
       <hr />
@@ -74,13 +54,14 @@
     </main>
     <hr />
     <footer>
-      <p class="text-mini"><b>Cupola Labs, LLC</b> ©
-        <span id="year"></span>
-      </p>
+      <p class="text-mini"><b>Cupola Labs, LLC</b> © <span id="year"></span></p>
     </footer>
   </div>
 
-  <script src="./script.js"></script>
+  <script>
+    // Update year dynamically
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 
 </html>
